@@ -1,0 +1,65 @@
+.cat {
+	margin: auto;
+	display: block;
+	width: 70%;
+	height: 70%;
+}
+
+.advert {
+	margin: 20px 0;
+	color: #c4c4c4;
+	
+	height: 100%
+}
+
+aside {
+	overflow-y: auto;
+	width: 20%;
+	position: fixed;
+	top: 0;
+}
+
+footer {
+	position: absolute;
+	height: 60px;
+	margin: auto;
+	width: 95%;
+}
+
+body {
+	padding: 0 30px;
+	font-size: 16px;
+	line-height: 26px;
+	font-family: "Arial", sans-serif;
+	color: #222222;	
+	width: 50vw auto;
+	align-items: center;
+}
+
+.lst-ico {
+	list-style-image: url("static/nav-ico.png");
+}
+
+.head-bar {
+	display: grid;
+	grid-template-columns: 30% 30%;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.nav-bar {
+	margin: auto;
+	
+}
+
+.global-info {
+	display: flex;
+	flex-flow: row-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
+.double-board {
+	border-top: 3px double #333;
+}
